@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradien elegan */
+    color: white; /* Mengubah warna teks menjadi putih untuk kontras yang lebih baik */
+    margin: 0; /* Menghilangkan margin default */
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1); /* Latar belakang semi-transparan untuk kontainer */
+    padding: 20px;
+    border-radius: 10px; /* Membuat sudut kontainer menjadi melengkung */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Menambahkan bayangan untuk efek kedalaman */
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 300px;
+    border: none; /* Menghilangkan border default */
+    border-radius: 5px; /* Membuat sudut input menjadi melengkung */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px; /* Membuat sudut tombol menjadi melengkung */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Menambahkan transisi untuk efek hover */
+}
+
+button:hover {
+    background-color: #218838; /* Warna saat hover */
+}
